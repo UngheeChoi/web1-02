@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+	</head>
+	
+	<style>
+		#top {
+            display: flex;
+			width: 1000px;
+			height: 500px;
+			margin: 30px auto;
+		}
+		.top_left {
+            position: relative;
+			width: 750px;
+			height: 500px;
+		}
+        #top_box {
+            position: absolute;
+            top: 250px;
+			width: 210px;
+			height: 210px;
+            padding: 20px;
+			background-color: green;
+			opacity: 70%;
+			text-align: left;
+            font-weight: bold;
+		}
+		.top_right {
+			width: 250px;
+			height: 500px;
+		}
+		
+        #box_all {
+            width: 1000px;
+            height: 500px;
+            display: flex;
+            margin: auto;
+            position: relative;
+            top: -30px;
+        }
+        .box_left {
+            width: 750px;
+            height: 500px;
+        }
+        .box_right {
+            padding: 20px;
+            background-color: rgb(251, 255, 1);
+            width: 210px;
+            height: 460px;
+        }
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box1, .box3, .box5 {
+            padding: 20px;
+            background-color: rgba(91, 80, 65, 0.781);
+            width: 210px;
+            height: 210px;
+        }
+        .box2, .box4, .box6 {
+            padding: 20px;
+            background-color: rgba(255, 149, 0, 0.941);
+            width: 210px;
+            height: 210px;
+        }
+
+        #footer {
+            width: 1000px;
+            height: 40px;
+            display: flex;
+            margin: auto;
+            position: relative;
+            top: -30px;
+        }
+        .f_left {
+            width: 730px;
+            background-color: grey;
+            font-size: small;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .f_right {
+            display: inline-block;
+            width: 250px;
+            background-color: pink;
+        }
+        .line {
+            display: inline;
+            border-right: medium solid rgba(255, 149, 0, 0.941);
+            height: 2px;
+            margin: 0 10px 0 10px;
+        }
+		
+	</style>
+	
+	<body>
+		<div id="top">
+			<div class="top_left">
+				<div class="top_left_img"><img src="chef_about.png"></div>
+				<div id="top_box">
+					<h2>GLOBAL<br>BUSINESS</h2>
+					<p>asdfasdfasdfasdfsadfasfas asdf asdfasdasfdasd fasdfasdfasdf asdf
+                        asdfasdfasdfa asfasdfasdfas</p>
+				</div>
+			</div>
+			<div class="top_right">
+                <img src="right1.png"><img src="right2.png">
+            </div>
+		</div>
+        <div id="box_all">
+            <div class="box_left">
+                <div class="box">
+                    <div class="box1"><h2>TITLE</h2>asdfasfasfasf asdfasfasdf asfasfas asdfafs asdfasfasfa asfd</div>
+                    <div class="box2"><h2>TITLE</h2>asdfasfasfasf asdfasfasdf asfasfas asdfafs asdfasfasfa asfd</div>
+                    <div class="box3">3</div>
+                    <div class="box4">4</div>
+                    <div class="box5">5</div>
+                    <div class="box6">6</div>
+                </div>
+            </div>
+            <div class="box_right">7</div>
+        </div>
+        <div id="footer">
+            <div class="f_left">
+                    법적고지<div class="line"></div>이메일무단수집거부<div class="line"></div>이용약관
+                    <div class="line"></div>개인정보취급방침<div class="line"></div>고객센터<div class="line"></div>입찰공고
+            </div>
+            <div class="f_right"></div>
+        </div>
+	</body>
+</html>
